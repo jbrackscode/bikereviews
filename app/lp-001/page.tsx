@@ -33,7 +33,7 @@ export default function Home() {
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"
         style={{ background: "var(--ink)", fontFamily: "'DM Sans', sans-serif" }}
       >
-        The Bike Rack Buyer&apos;s Guide — Australian Review · 2025
+        The Bike Rack Buyer&apos;s Guide — Australian Review · 2026
       </div>
 
       <header className="border-b py-4 text-center" style={{ background: "var(--white)", borderColor: "var(--rule)" }}>
@@ -68,7 +68,7 @@ export default function Home() {
           <div className="flex items-center gap-5 flex-wrap text-[13px] pt-5 border-t" style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-muted)", borderColor: "var(--rule)" }}>
             <span className="font-semibold" style={{ color: "var(--ink)" }}>JB Racks Editorial</span>
             <span className="w-1 h-1 rounded-full" style={{ background: "var(--rule)" }} />
-            <span>Review · 2025</span>
+            <span>Review · 2026</span>
             <span className="w-1 h-1 rounded-full" style={{ background: "var(--rule)" }} />
             <span>6 racks compared</span>
           </div>
@@ -157,7 +157,7 @@ export default function Home() {
             Sponsored by JB Racks
           </p>
           <a
-            href="https://jbracks.com.au"
+            href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-001&utm_content=footer"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white font-semibold px-8 py-3.5 rounded-lg mb-4"

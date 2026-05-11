@@ -90,7 +90,7 @@ export function CountdownBar() {
         </div>
       </div>
       <a
-        href="https://jbracks.com.au/collections/vertical-bike-racks"
+        href="https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=banner&utm_campaign=families&utm_content=countdown"
         target="_blank"
         rel="noopener noreferrer"
         style={{

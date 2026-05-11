@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "We discovered why families across Australia are switching from platform racks — and why once you go vertical, you'll never go back.",
 };
 
-const shopUrl = 'https://jbracks.com.au/collections/vertical-bike-racks';
+const shopUrl = 'https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-002&utm_content=cta';
 
 const reasons = [
   {
@@ -200,7 +200,7 @@ export default function FamiliesPage() {
           </div>
           <div style={{ fontSize: '13px', color: 'var(--ink-muted)' }}>
             <strong style={{ color: 'var(--ink)', display: 'block' }}>By Sarah M., Brisbane Mum of Three</strong>
-            Published · Easter Weekend, 2025
+            Published · Mid-Season Sale, 2026
           </div>
         </div>
 
@@ -389,7 +389,7 @@ export default function FamiliesPage() {
               Ready to upgrade your family&apos;s weekends?
             </h4>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.65)', margin: 0 }}>
-              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited Easter offer.
+              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited Mid-Season offer.
             </p>
             <span
               style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}
@@ -559,7 +559,7 @@ export default function FamiliesPage() {
               </div>
             </div>
             <div style={{ fontSize: '15px', color: '#050505', lineHeight: 1.6, marginBottom: '12px' }}>
-              Which family adventure are you heading to this Easter long weekend? 🚴‍♀️🚴 Tag a family who needs a JB
+              Which family adventure are you heading to this long weekend? 🚴‍♀️🚴 Tag a family who needs a JB
               Rack for their next trip! 👇
             </div>
             <div
@@ -689,7 +689,7 @@ export default function FamiliesPage() {
             textTransform: 'uppercase',
           }}
         >
-          🔴 Limited Easter Offer — Ends Soon
+          🔴 Limited Mid-Season Offer — Ends Soon
         </div>
         <h2
           style={{

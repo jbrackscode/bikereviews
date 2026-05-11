@@ -41,7 +41,7 @@ export function Sidebar() {
           JB Racks is built for exactly this — multiple bikes, real families, Australian weekends.
         </p>
         <a
-          href="https://jbracks.com.au"
+          href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=sidebar&utm_campaign=lp-001&utm_content=shop"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center text-sm font-semibold py-3 rounded-lg transition-transform hover:scale-[1.02]"
@@ -54,7 +54,7 @@ export function Sidebar() {
           Shop JB Racks →
         </a>
         <a
-          href="https://jbracks.com.au"
+          href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=sidebar&utm_campaign=lp-001&utm_content=models"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center text-sm font-semibold py-3 rounded-lg transition-colors hover:bg-white/10"
