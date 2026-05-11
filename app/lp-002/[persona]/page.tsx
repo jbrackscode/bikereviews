@@ -163,6 +163,15 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
     <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
       <CountdownBar />
 
+      <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="https://images.assets-landingi.com/uc/83dc7891-77cc-4668-ba8d-4c0075a62d58/BikersReview.svg"
+          alt="Bikers Review"
+          className="h-6 w-auto mx-auto"
+        />
+      </header>
+
       {/* HERO */}
       <div style={{ background: 'var(--white)', padding: '44px 40px 36px', borderBottom: '3px solid var(--brand)' }}>
         <div className="flex items-center gap-3 mb-5">
@@ -412,7 +421,6 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
       <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 text-center" style={{ background: 'var(--ink)', padding: '8px 40px', fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
         <span>🔒 <strong style={{ color: 'white' }}>Secure Checkout</strong></span>
         <span>📦 <strong style={{ color: 'white' }}>Free Shipping*</strong> on orders over $150</span>
-        <span>↩️ <strong style={{ color: 'white' }}>30-Day Returns</strong></span>
       </div>
     </div>
   );
