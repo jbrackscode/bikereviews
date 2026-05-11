@@ -37,10 +37,10 @@ export default function Home() {
       </div>
 
       <header className="border-b py-4 text-center" style={{ background: "var(--white)", borderColor: "var(--rule)" }}>
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-5xl mx-auto px-6">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.assets-landingi.com/uc/83dc7891-77cc-4668-ba8d-4c0075a62d58/BikersReview.svg"
+            src="/logo.svg"
             alt="Bikers Review"
             className="h-6 w-auto mx-auto"
           />
@@ -48,7 +48,7 @@ export default function Home() {
       </header>
 
       <section className="py-16 px-6" style={{ background: "var(--white)", borderBottom: "3px solid var(--brand)" }}>
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-widest uppercase mb-5" style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--brand)" }}>
             <span className="block w-6 h-0.5" style={{ background: "var(--brand)" }} />
             Buyer&apos;s Guide · Vertical Bike Racks · Australia
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="max-w-5xl mx-auto px-6 py-12" style={{ display: "grid", gridTemplateColumns: "1fr 280px", gap: "3rem", alignItems: "start" }}>
+      <div className="max-w-5xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 lg:gap-12 items-start">
         <main>
           <div className="space-y-4 mb-10">
             <p className="text-xl leading-relaxed drop-cap" style={{ fontFamily: "'Source Serif 4', serif", color: "var(--ink)" }}>
@@ -94,11 +94,19 @@ export default function Home() {
 
           <SectionHeading>At a Glance: All Six Racks</SectionHeading>
           <div className="rounded-xl overflow-hidden mb-10" style={{ border: "1px solid var(--rule)" }}>
+            <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr style={{ background: "var(--ink)" }}>
-                  {["Rack", "RRP (AUD)", "Weight", "Capacity", "Warranty", "Mount"].map((h) => (
-                    <th key={h} className="px-4 py-3 text-left text-[11px] font-semibold uppercase tracking-wider" style={{ fontFamily: "'DM Sans', sans-serif", color: h === "Rack" ? "white" : "rgba(255,255,255,0.6)" }}>
+                  {[
+                    { h: "Rack", mobile: true },
+                    { h: "RRP (AUD)", mobile: true },
+                    { h: "Weight", mobile: false },
+                    { h: "Capacity", mobile: true },
+                    { h: "Warranty", mobile: false },
+                    { h: "Mount", mobile: false },
+                  ].map(({ h, mobile }) => (
+                    <th key={h} className={`px-4 py-3 text-left text-[11px] font-semibold uppercase tracking-wider${mobile ? "" : " hidden sm:table-cell"}`} style={{ fontFamily: "'DM Sans', sans-serif", color: h === "Rack" ? "white" : "rgba(255,255,255,0.6)" }}>
                       {h}
                     </th>
                   ))}
@@ -107,15 +115,23 @@ export default function Home() {
               <tbody>
                 {tableRows.map((row) => (
                   <tr key={row.name} className="border-b" style={{ borderColor: "var(--rule)", background: row.featured ? "var(--brand-light)" : "var(--white)" }}>
-                    {[row.name, row.price, row.weight, row.capacity, row.warranty, row.mount].map((cell, i) => (
-                      <td key={i} className="px-4 py-3" style={{ fontFamily: "'DM Sans', sans-serif", color: i === 0 ? (row.featured ? "var(--brand-dark)" : "var(--ink)") : "var(--ink-mid)", fontWeight: i === 0 ? 600 : 400 }}>
-                        {cell}
+                    {[
+                      { val: row.name, mobile: true },
+                      { val: row.price, mobile: true },
+                      { val: row.weight, mobile: false },
+                      { val: row.capacity, mobile: true },
+                      { val: row.warranty, mobile: false },
+                      { val: row.mount, mobile: false },
+                    ].map(({ val, mobile }, i) => (
+                      <td key={i} className={`px-4 py-3${mobile ? "" : " hidden sm:table-cell"}`} style={{ fontFamily: "'DM Sans', sans-serif", color: i === 0 ? (row.featured ? "var(--brand-dark)" : "var(--ink)") : "var(--ink-mid)", fontWeight: i === 0 ? 600 : 400 }}>
+                        {val}
                       </td>
                     ))}
                   </tr>
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
 
           <SectionHeading>The Racks, Reviewed</SectionHeading>
@@ -143,7 +159,7 @@ export default function Home() {
           </div>
         </main>
 
-        <div className="sticky top-6">
+        <div className="sticky top-6 hidden lg:block">
           <Sidebar />
         </div>
       </div>
