@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\Users\\\\reed\\\\Sites\\\\bikereviews-main\" status)"
+    ]
+  }
+}

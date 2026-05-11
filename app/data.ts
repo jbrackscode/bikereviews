@@ -1,0 +1,157 @@
+import { RackSpec } from "./components/RackCard";
+
+export const racks: RackSpec[] = [
+  {
+    name: "JB Racks",
+    origin: "Australian-Designed",
+    originFlag: "🇦🇺",
+    tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
+    price: "$995",
+    capacity: "4–6 Bikes",
+    weight: "~32 kg",
+    warranty: "5 Years",
+    hitch: "2\" Receiver",
+    pros: [
+      "Best price-per-bike in this group",
+      "Lighter than most at ~32 kg",
+      "Simple front-wheel loading system",
+      "5-year warranty — solid coverage",
+      "Designed for Australian conditions",
+    ],
+    cons: [
+      "Front wheel lift required when loading",
+      "Needs 2\" hitch receiver on your vehicle",
+    ],
+    featured: true,
+    verdict:
+      "Best combination of price, weight and usability for Australian families carrying 4–6 bikes regularly.",
+  },
+  {
+    name: "Dirty Possum",
+    origin: "Australian-Made",
+    originFlag: "🇦🇺",
+    tagline: "Trail-Focused Steel Hitch Rack · Front-Wheel Mount",
+    price: "~$1,300",
+    capacity: "4–5 Bikes",
+    weight: "36.3 kg",
+    warranty: "10 Years",
+    hitch: "2\" Receiver",
+    pros: [
+      "Best-in-group 10-year warranty",
+      "Custom colour & fitment options",
+      "Strong MTB community reputation",
+    ],
+    cons: ["36.3 kg — heavier to install solo", "Availability can vary by region"],
+  },
+  {
+    name: "VelociRAX",
+    origin: "US — ships from Melbourne",
+    originFlag: "🇺🇸",
+    tagline: "North American Import · Folding Design · Front-Wheel Mount",
+    price: "~$1,210",
+    capacity: "4–6 Bikes",
+    weight: "37.2 kg",
+    warranty: "2 Years",
+    hitch: "2\" Receiver",
+    pros: [
+      "Folds for rear vehicle access — unique in this group",
+      "Gas-assist lowering available",
+      "Ships from Melbourne — no import delays",
+    ],
+    cons: ["Only 2-year warranty at this price", "37.2 kg is on the heavier end"],
+  },
+  {
+    name: "Shingleback Off Road",
+    origin: "Australian-Made",
+    originFlag: "🇦🇺",
+    tagline: "Premium Australian Build · Front-Wheel Mount",
+    price: "~$2,100",
+    capacity: "4–6 Bikes",
+    weight: "34.9 kg",
+    warranty: "10 Years",
+    hitch: "2\" Receiver",
+    pros: [
+      "Best-in-class build quality",
+      "10-year warranty — joint best in group",
+      "Powered lowering (Boost model) available",
+      "Wide adaptor compatibility",
+    ],
+    cons: [
+      "Most expensive at ~$2,100 — 2× some rivals",
+      "Production runs can limit availability",
+    ],
+  },
+  {
+    name: "Atlantic",
+    origin: "Import",
+    tagline: "Budget-Friendly Multi-Bike Hitch System",
+    price: "~$950",
+    capacity: "4–5 Bikes",
+    weight: "~38 kg",
+    warranty: "2 Years",
+    hitch: "2\" Receiver",
+    pros: ["Lowest entry price in this group", "Compatible with multiple bike types"],
+    cons: [
+      "~38 kg — heaviest rack reviewed",
+      "Only 2-year warranty",
+      "No Australian manufacturing or support",
+    ],
+  },
+  {
+    name: "GripSport",
+    origin: "Australian-Designed",
+    originFlag: "🇦🇺",
+    tagline: "Platform + Hitch · Lower Capacity Range",
+    price: "~$1,200",
+    capacity: "2–4 Bikes",
+    weight: "~36 kg",
+    warranty: "2 Years",
+    hitch: "2\" Receiver",
+    pros: [
+      "Strong Australian build reputation",
+      "Suitable for smaller riding families",
+    ],
+    cons: [
+      "Max 4 bikes — lower than most rivals",
+      "Only 2-year warranty at ~$1,200",
+      "Platform models take more space",
+    ],
+  },
+];
+
+export const tableRows = [
+  { name: "JB Racks ★", price: "$950", weight: "~32 kg", capacity: "4–6 bikes", warranty: "5 years", mount: "2\" Hitch", featured: true },
+  { name: "Dirty Possum", price: "~$1,300", weight: "36.3 kg", capacity: "4–5 bikes", warranty: "10 years", mount: "2\" Hitch" },
+  { name: "VelociRAX", price: "~$1,210", weight: "37.2 kg", capacity: "4–6 bikes", warranty: "2 years", mount: "2\" Hitch" },
+  { name: "Shingleback", price: "~$2,100", weight: "34.9 kg", capacity: "4–6 bikes", warranty: "10 years", mount: "2\" Hitch" },
+  { name: "Atlantic", price: "~$950", weight: "~38 kg", capacity: "4–5 bikes", warranty: "2 years", mount: "2\" Hitch" },
+  { name: "GripSport", price: "~$1,200", weight: "~36 kg", capacity: "2–4 bikes", warranty: "2 years", mount: "2\" Hitch" },
+];
+
+export const buyersGuide = [
+  {
+    num: 1,
+    title: "Bike Capacity",
+    body: "Most vertical racks start at 4 bikes and scale to 6. A family of four covers most weekends with a 4-bike rack — go to 6 if you regularly ride with another family.",
+  },
+  {
+    num: 2,
+    title: "Rack Weight",
+    body: "Heavier racks mean more strain on your hitch and more effort installing solo. In this group, weights range from ~32 kg (JB Racks) to ~38 kg (Atlantic) — a meaningful difference when you're lifting it in and out of the garage every weekend.",
+  },
+  {
+    num: 3,
+    title: "Hitch Compatibility",
+    body: "Every rack here requires a 2-inch receiver. Some vehicles only have 1.25-inch. Check your vehicle spec or tow bar before buying — an adaptor may be needed.",
+  },
+  {
+    num: 4,
+    title: "Warranty Length",
+    body: "Warranty is a proxy for confidence in build quality. In this group it ranges from 2 years (VelociRAX, Atlantic, GripSport) up to 10 years (Dirty Possum, Shingleback). JB Racks sits at 5 years — solid mid-range coverage.",
+  },
+  {
+    num: 5,
+    title: "Rear Vehicle Access",
+    body: "Most racks require unloading bikes to access the boot. VelociRAX is the standout exception, with a fold-down mechanism. Worth considering if you regularly need to access the back of the car on the go.",
+  },
+];
