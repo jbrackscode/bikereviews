@@ -78,11 +78,17 @@ export function RackCard({ rack }: { rack: RackSpec }) {
 
       {/* Spec Bar */}
       <div
-        className="grid"
+        className="overflow-x-auto"
         style={{
-          gridTemplateColumns: "repeat(5, 1fr)",
           borderTop: "1px solid var(--rule)",
           borderBottom: "1px solid var(--rule)",
+        }}
+      >
+      <div
+        className="grid"
+        style={{
+          gridTemplateColumns: "repeat(5, minmax(80px, 1fr))",
+          minWidth: "380px",
           background: rack.featured ? "#fff8f2" : "var(--bg)",
         }}
       >
@@ -121,6 +127,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             </span>
           </div>
         ))}
+      </div>
       </div>
 
       {/* Pros / Cons */}
