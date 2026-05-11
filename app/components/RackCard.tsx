@@ -14,6 +14,7 @@ export interface RackSpec {
   cons: string[];
   featured?: boolean;
   verdict?: string;
+  image?: string;
 }
 
 export function RackCard({ rack }: { rack: RackSpec }) {
@@ -34,6 +35,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             background: "var(--brand)",
             borderRadius: "0 0 20px 0",
             fontFamily: "var(--font-sans)",
+            zIndex: 1,
           }}
         >
           <StarIcon size={10} fill="white" />
@@ -41,10 +43,24 @@ export function RackCard({ rack }: { rack: RackSpec }) {
         </div>
       )}
 
+      {rack.image && (
+        <div
+          className="w-full flex items-center justify-center border-b"
+          style={{ height: "200px", background: "var(--bg)", borderColor: "var(--rule)" }}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={rack.image}
+            alt={`${rack.name} bike rack`}
+            className="h-full w-full object-contain p-5"
+          />
+        </div>
+      )}
+
       {/* Header */}
       <div
         className="px-6"
-        style={{ paddingTop: rack.featured ? "2.5rem" : "1.25rem" }}
+        style={{ paddingTop: rack.featured && !rack.image ? "2.5rem" : "1.25rem" }}
       >
         <div className="flex items-baseline justify-between gap-3 flex-wrap mb-0.5">
           <h3
@@ -53,8 +69,8 @@ export function RackCard({ rack }: { rack: RackSpec }) {
           >
             {rack.name}
           </h3>
-          <span
-            className="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full border whitespace-nowrap"
+          {/* <span
+            className="2026"
             style={{
               fontFamily: "'DM Sans', sans-serif",
               color: "var(--ink-muted)",
@@ -63,7 +79,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             }}
           >
             {rack.originFlag} {rack.origin}
-          </span>
+          </span> */}
         </div>
         <p
           className="text-xs uppercase tracking-wider mb-4"

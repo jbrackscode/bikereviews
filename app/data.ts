@@ -3,6 +3,7 @@ import { RackSpec } from "./components/RackCard";
 export const racks: RackSpec[] = [
   {
     name: "JB Racks",
+    image: "https://jbracks.com.au/cdn/shop/files/4-bike-rack-black-new-photo-1.webp?v=1772752325&width=800",
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
@@ -28,6 +29,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "Dirty Possum",
+    image: "https://www.ambmag.com.au/wp-content/uploads/2024/05/Racks-47.jpg",
     origin: "Australian-Made",
     originFlag: "🇦🇺",
     tagline: "Trail-Focused Steel Hitch Rack · Front-Wheel Mount",
@@ -45,6 +47,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "VelociRAX",
+    image: "https://www.velocirax.com/cdn/shop/files/6_MAX_Hero.png?v=1776282008&width=800",
     origin: "US — ships from Melbourne",
     originFlag: "🇺🇸",
     tagline: "North American Import · Folding Design · Front-Wheel Mount",
@@ -62,6 +65,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "Shingleback Off Road",
+    image: "https://shinglebackoffroad.com.au/wp-content/uploads/2024/09/Shingleback-5B-Defender.webp",
     origin: "Australian-Made",
     originFlag: "🇦🇺",
     tagline: "Premium Australian Build · Front-Wheel Mount",
@@ -99,6 +103,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "GripSport",
+    image: "https://www.gripsport.com.au/wp-content/uploads/2020/08/GS4-with-Rack-Light-persp-front.jpg",
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Platform + Hitch · Lower Capacity Range",
