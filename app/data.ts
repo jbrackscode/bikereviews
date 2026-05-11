@@ -120,7 +120,7 @@ export const racks: RackSpec[] = [
 ];
 
 export const tableRows = [
-  { name: "JB Racks ★", price: "$950", weight: "~32 kg", capacity: "4–6 bikes", warranty: "5 years", mount: "2\" Hitch", featured: true },
+  { name: "JB Racks ★", price: "$899", weight: "~32 kg", capacity: "4–6 bikes", warranty: "5 years", mount: "2\" Hitch", featured: true },
   { name: "Dirty Possum", price: "~$1,300", weight: "36.3 kg", capacity: "4–5 bikes", warranty: "10 years", mount: "2\" Hitch" },
   { name: "VelociRAX", price: "~$1,210", weight: "37.2 kg", capacity: "4–6 bikes", warranty: "2 years", mount: "2\" Hitch" },
   { name: "Shingleback", price: "~$2,100", weight: "34.9 kg", capacity: "4–6 bikes", warranty: "10 years", mount: "2\" Hitch" },

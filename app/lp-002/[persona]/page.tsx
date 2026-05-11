@@ -56,9 +56,9 @@ const reasons = [
     paragraphs: [
       "If you've ever owned a rack that drops hard when folded, you know the anxiety. The sudden clang, the paint scratch risk, the kids jumping back. JB Racks' Slow-Fold Strut changes this entirely.",
       "Gas-assisted struts slow the fold-down to a controlled, smooth motion. The rack eases down, not crashes down. It's the kind of detail that shows they've actually used their product with a family.",
-      "Currently included FREE with every rack purchase — a $250 value.",
+      "The Slow-Fold Strut is included in all JB Racks bundles — no extra cost when you buy the rack, strut, and shed stand together.",
     ],
-    stat: { value: "FREE with every rack — $250 value", label: "Slow-Fold Strut included at no extra cost right now" },
+    stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,199 — save $300" },
     pills: ["Gas-assisted", "Controlled fold", "FREE right now"],
   },
   {
@@ -108,17 +108,17 @@ const reasons = [
   {
     num: 7,
     flip: false,
-    summary: "Family sizes for every family — 4, 5, or 6 bikes from $950",
+    summary: "Family sizes for every family — 4, 5, or 6 bikes from $899",
     img: "https://jbracks.com.au/cdn/shop/files/4-bike-rack-velo-new-photo-3.webp?v=1773012669&width=900",
     imgAlt: "JB Racks family of bikes loaded on rack at trailhead",
     title: "One rack for the whole crew — kids' bikes included",
     paragraphs: [
-      "JB Racks comes in 4, 5, and 6-bike configurations — all starting at $950. With optional 16–20 inch wheel brackets, even the smallest family member's bike fits perfectly.",
-      "The rack, strut, and shed stand bundle currently saves $400 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
+      "JB Racks comes in 4, 5, and 6-bike configurations — all starting at $899. With optional 16–20 inch wheel brackets, even the smallest family member's bike fits perfectly.",
+      "The rack, strut, and shed stand bundle currently saves $300 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
-    stat: { value: "Bundle from $1,100 (save $400)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
-    pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$400 bundle saving"],
+    stat: { value: "Bundle from $1,199 (save $300)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
+    pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$300 bundle saving"],
   },
 ];
 
@@ -276,7 +276,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
               4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited Mid-Season offer.
             </p>
             <span style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}>
-              From $950 — FREE Strut Included
+              From $899 — Bundles from $1,199
             </span>
             <div className="flex flex-wrap gap-5 mt-3.5">
               {['4-year warranty', 'Free shipping*', '15,247+ customers', 'Secure checkout'].map((item) => (
@@ -392,7 +392,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           Get Your Family on the Trails Every Weekend
         </h2>
         <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.85)', marginBottom: '10px' }}>
-          4, 5 &amp; 6-bike racks from $950. Free Slow-Fold Strut. $400 off bundles.
+          4, 5 &amp; 6-bike racks from $899. Bundles from $1,199 — save $300.
         </p>
         <br />
         <a href={shopUrl} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '17px', fontWeight: 700, padding: '16px 40px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.02em', marginBottom: '16px' }}>

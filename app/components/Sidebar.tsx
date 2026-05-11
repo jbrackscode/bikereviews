@@ -1,6 +1,6 @@
 const jbFacts = [
-  { label: "Price (4-bike)", value: "$950", orange: true },
-  { label: "Price (6-bike)", value: "$950", orange: true },
+  { label: "Price (4-bike)", value: "$899", orange: true },
+  { label: "Price (6-bike)", value: "$899", orange: true },
   { label: "Rack Weight", value: "~32 kg" },
   { label: "Bike Capacity", value: "4 or 6 Bikes" },
   { label: "Bike Hold", value: "Front Wheel" },
