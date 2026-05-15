@@ -7,7 +7,7 @@ export const racks: RackSpec[] = [
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
-    price: "$950",
+    price: "$899",
     capacity: "4–6 Bikes",
     weight: "~32 kg",
     warranty: "4 Years",
