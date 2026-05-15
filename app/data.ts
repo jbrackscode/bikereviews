@@ -9,12 +9,12 @@ export const racks: RackSpec[] = [
     tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
     price: "$899",
     capacity: "4–6 Bikes",
-    weight: "~32 kg",
+    weight: "~34 kg",
     warranty: "4 Years",
     hitch: "2\" Receiver",
     pros: [
       "Best price-per-bike in this group",
-      "Lighter than most at ~32 kg",
+      "Lighter than most at ~34 kg",
       "Simple front-wheel loading system",
       "4-year warranty — solid coverage",
       "Designed for Australian conditions",
@@ -34,7 +34,7 @@ export const racks: RackSpec[] = [
     originFlag: "🇦🇺",
     tagline: "Trail-Focused Steel Hitch Rack · Front-Wheel Mount",
     price: "~$1,300",
-    capacity: "4–5 Bikes",
+    capacity: "4–6 Bikes",
     weight: "36.3 kg",
     warranty: "10 Years",
     hitch: "2\" Receiver",
@@ -58,7 +58,7 @@ export const racks: RackSpec[] = [
     hitch: "2\" Receiver",
     pros: [
       "Folds for rear vehicle access — unique in this group",
-      "Gas-assist lowering available",
+      "Hydraulic damper lowering available",
       "Ships from Melbourne — no import delays",
     ],
     cons: ["Only 2-year warranty at this price", "37.2 kg is on the heavier end"],
@@ -125,11 +125,11 @@ export const racks: RackSpec[] = [
 ];
 
 export const tableRows = [
-  { name: "JB Racks ★", price: "$899", weight: "~32 kg", capacity: "4–6 bikes", warranty: "4 years", mount: "2\" Hitch", featured: true },
-  { name: "Dirty Possum", price: "~$1,300", weight: "36.3 kg", capacity: "4–5 bikes", warranty: "10 years", mount: "2\" Hitch" },
+  { name: "JB Racks ★", price: "$899", weight: "~34 kg", capacity: "4–6 bikes", warranty: "4 years", mount: "2\" Hitch", featured: true },
+  { name: "Dirty Possum", price: "~$1,300", weight: "36.3 kg", capacity: "4–6 bikes", warranty: "10 years", mount: "2\" Hitch" },
   { name: "VelociRAX", price: "~$1,210", weight: "37.2 kg", capacity: "4–6 bikes", warranty: "2 years", mount: "2\" Hitch" },
   { name: "Shingleback", price: "~$2,100", weight: "34.9 kg", capacity: "4–6 bikes", warranty: "10 years", mount: "2\" Hitch" },
-  { name: "Atlantic", price: "~$950", weight: "~38 kg", capacity: "4–5 bikes", warranty: "2 years", mount: "2\" Hitch" },
+  { name: "Atlantic", price: "~$750", weight: "~38 kg", capacity: "4–5 bikes", warranty: "2 years", mount: "2\" Hitch" },
   { name: "GripSport", price: "~$1,200", weight: "~36 kg", capacity: "2–4 bikes", warranty: "2 years", mount: "2\" Hitch" },
 ];
 
@@ -142,7 +142,7 @@ export const buyersGuide = [
   {
     num: 2,
     title: "Rack Weight",
-    body: "Heavier racks mean more strain on your hitch and more effort installing solo. In this group, weights range from ~32 kg (JB Racks) to ~38 kg (Atlantic) — a meaningful difference when you're lifting it in and out of the garage every weekend.",
+    body: "Heavier racks mean more strain on your hitch and more effort installing solo. In this group, weights range from ~34 kg (JB Racks) to ~38 kg (Atlantic) — a meaningful difference when you're lifting it in and out of the garage every weekend.",
   },
   {
     num: 3,
@@ -152,7 +152,7 @@ export const buyersGuide = [
   {
     num: 4,
     title: "Warranty Length",
-    body: "Warranty is a proxy for confidence in build quality. In this group it ranges from 2 years (VelociRAX, Atlantic, GripSport) up to 10 years (Dirty Possum, Shingleback). JB Racks sits at 5 years — solid mid-range coverage.",
+    body: "Warranty is a proxy for confidence in build quality. In this group it ranges from 2 years (VelociRAX, Atlantic, GripSport) up to 10 years (Dirty Possum, Shingleback). JB Racks sits at 4 years — solid mid-range coverage.",
   },
   {
     num: 5,
