@@ -7,16 +7,16 @@ export const racks: RackSpec[] = [
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
-    price: "$995",
+    price: "$950",
     capacity: "4–6 Bikes",
     weight: "~32 kg",
-    warranty: "5 Years",
+    warranty: "4 Years",
     hitch: "2\" Receiver",
     pros: [
       "Best price-per-bike in this group",
       "Lighter than most at ~32 kg",
       "Simple front-wheel loading system",
-      "5-year warranty — solid coverage",
+      "4-year warranty — solid coverage",
       "Designed for Australian conditions",
     ],
     cons: [
@@ -89,7 +89,7 @@ export const racks: RackSpec[] = [
     name: "Atlantic",
     origin: "Import",
     tagline: "Budget-Friendly Multi-Bike Hitch System",
-    price: "~$950",
+    price: "~$750",
     capacity: "4–5 Bikes",
     weight: "~38 kg",
     warranty: "2 Years",
@@ -125,7 +125,7 @@ export const racks: RackSpec[] = [
 ];
 
 export const tableRows = [
-  { name: "JB Racks ★", price: "$899", weight: "~32 kg", capacity: "4–6 bikes", warranty: "5 years", mount: "2\" Hitch", featured: true },
+  { name: "JB Racks ★", price: "$899", weight: "~32 kg", capacity: "4–6 bikes", warranty: "4 years", mount: "2\" Hitch", featured: true },
   { name: "Dirty Possum", price: "~$1,300", weight: "36.3 kg", capacity: "4–5 bikes", warranty: "10 years", mount: "2\" Hitch" },
   { name: "VelociRAX", price: "~$1,210", weight: "37.2 kg", capacity: "4–6 bikes", warranty: "2 years", mount: "2\" Hitch" },
   { name: "Shingleback", price: "~$2,100", weight: "34.9 kg", capacity: "4–6 bikes", warranty: "10 years", mount: "2\" Hitch" },
