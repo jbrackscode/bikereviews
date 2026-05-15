@@ -65,6 +65,13 @@ export default function Home() {
           <p className="text-lg leading-relaxed font-light italic mb-7 max-w-2xl" style={{ fontFamily: "'Source Serif 4', serif", color: "var(--ink-mid)" }}>
             We compared six of the most popular vertical bike racks available in Australia — including price, weight, capacity, warranty and usability — so you can pick the right one without the guesswork.
           </p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/jb-racks-family-image.jpg"
+            alt="Family loading bikes onto a vertical bike rack"
+            className="w-full rounded-xl object-cover mb-7"
+            style={{ maxHeight: "420px" }}
+          />
           <div className="flex items-center gap-5 flex-wrap text-[13px] pt-5 border-t" style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-muted)", borderColor: "var(--rule)" }}>
             <span className="font-semibold" style={{ color: "var(--ink)" }}>JB Racks Editorial</span>
             <span className="w-1 h-1 rounded-full" style={{ background: "var(--rule)" }} />

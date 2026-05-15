@@ -3,7 +3,7 @@ import { RackSpec } from "./components/RackCard";
 export const racks: RackSpec[] = [
   {
     name: "JB Racks",
-    image: "https://jbracks.com.au/cdn/shop/files/4-bike-rack-black-new-photo-1.webp?v=1772752325&width=800",
+    image: "/images/jb-racks-family-image.jpg",
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Multi-Bike Hitch Rack · Front-Wheel Mount",
@@ -47,7 +47,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "VelociRAX",
-    image: "https://www.velocirax.com/cdn/shop/files/6_MAX_Hero.png?v=1776282008&width=800",
+    image: "/images/velocirax.png",
     origin: "US — ships from Melbourne",
     originFlag: "🇺🇸",
     tagline: "North American Import · Folding Design · Front-Wheel Mount",
@@ -103,7 +103,7 @@ export const racks: RackSpec[] = [
   },
   {
     name: "GripSport",
-    image: "https://www.gripsport.com.au/wp-content/uploads/2020/08/GS4-with-Rack-Light-persp-front.jpg",
+    image: "/images/GripSport.jpg",
     origin: "Australian-Designed",
     originFlag: "🇦🇺",
     tagline: "Platform + Hitch · Lower Capacity Range",

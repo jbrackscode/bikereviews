@@ -45,14 +45,14 @@ export function RackCard({ rack }: { rack: RackSpec }) {
 
       {rack.image && (
         <div
-          className="w-full flex items-center justify-center border-b"
-          style={{ height: "200px", background: "var(--bg)", borderColor: "var(--rule)" }}
+          className="w-full overflow-hidden border-b"
+          style={{ height: "300px", borderColor: "var(--rule)" }}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={rack.image}
             alt={`${rack.name} bike rack`}
-            className="h-full w-full object-contain p-5"
+            className="h-full w-full object-cover"
           />
         </div>
       )}

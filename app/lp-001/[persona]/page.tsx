@@ -93,6 +93,13 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           >
             {copy.subheadline}
           </p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/jb-racks-family-image.jpg"
+            alt="Family loading bikes onto a vertical bike rack"
+            className="w-full rounded-xl object-cover mb-7"
+            style={{ maxHeight: '420px' }}
+          />
           <div
             className="flex items-center gap-5 flex-wrap text-[13px] pt-5 border-t"
             style={{ fontFamily: "'DM Sans', sans-serif", color: 'var(--ink-muted)', borderColor: 'var(--rule)' }}
