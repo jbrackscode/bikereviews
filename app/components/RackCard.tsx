@@ -105,7 +105,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
         style={{
           gridTemplateColumns: "repeat(5, minmax(80px, 1fr))",
           minWidth: "380px",
-          background: rack.featured ? "#fff8f2" : "var(--bg)",
+          background: rack.featured ? "#f0f7ff" : "var(--bg)",
         }}
       >
         {[
@@ -120,7 +120,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             className="flex flex-col gap-0.5 px-3 py-3"
             style={{
               borderRight:
-                i < 4 ? `1px solid ${rack.featured ? "#f0cda8" : "var(--rule)"}` : "none",
+                i < 4 ? `1px solid ${rack.featured ? "#bfdbfe" : "var(--rule)"}` : "none",
             }}
           >
             <span
