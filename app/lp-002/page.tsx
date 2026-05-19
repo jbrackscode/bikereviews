@@ -192,7 +192,7 @@ export default function FamiliesPage() {
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo-blaktur-orange.svg"
+          src="/logo-oe-black.svg"
           alt="Bikers Review"
           className="h-12 w-auto mx-auto"
         />

@@ -40,7 +40,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo-blaktur-orange.svg"
+            src="/logo-oe-black.svg"
             alt="Bikers Review"
             className="h-12 w-auto mx-auto"
           />
