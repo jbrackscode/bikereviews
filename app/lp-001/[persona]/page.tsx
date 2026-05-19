@@ -57,9 +57,9 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
         <div className="max-w-5xl mx-auto px-6">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo.svg"
+            src="/logo-blaktur-orange.svg"
             alt="Bikers Review"
-            className="h-6 w-auto mx-auto"
+            className="h-12 w-auto mx-auto"
           />
         </div>
       </header>
