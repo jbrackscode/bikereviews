@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Vertical Bike Racks in Australia – JB Racks",
   description: "We compared six of the most popular vertical bike racks available in Australia — including price, weight, capacity, warranty and usability.",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
