@@ -186,7 +186,7 @@ const fbComments = [
 
 export default function FamiliesPage() {
   return (
-    <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
+    <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Libre Franklin', system-ui, sans-serif" }}>
       {/* <CountdownBar /> */}
 
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>

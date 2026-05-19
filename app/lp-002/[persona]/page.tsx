@@ -160,7 +160,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
   const shopUrl = `https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=${utmCampaign}&utm_content=cta`;
 
   return (
-    <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
+    <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Libre Franklin', system-ui, sans-serif" }}>
       {/* <CountdownBar /> */}
 
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>

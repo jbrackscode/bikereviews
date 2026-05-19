@@ -36,7 +36,7 @@ export function CountdownBar() {
         fontSize: '13px',
         fontWeight: 600,
         letterSpacing: '0.04em',
-        fontFamily: "'Inter', system-ui, sans-serif",
+        fontFamily: "'Libre Franklin', system-ui, sans-serif",
       }}
     >
       <span style={{ textTransform: 'uppercase', letterSpacing: '0.08em' }}>
