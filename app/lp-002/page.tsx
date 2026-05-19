@@ -215,7 +215,7 @@ export default function FamiliesPage() {
 
         <h1
           style={{
-            fontFamily: "'Inter', system-ui, sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             fontSize: 'clamp(26px, 4vw, 40px)',
             fontWeight: 900,
             lineHeight: 1.15,
@@ -264,7 +264,7 @@ export default function FamiliesPage() {
           <div key={r.num} style={{ padding: '48px 0', borderTop: '1px solid var(--rule)' }}>
             <div
               style={{
-                fontFamily: "'Inter', system-ui, sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 fontSize: '22px',
                 fontWeight: 700,
                 color: 'var(--ink)',
@@ -300,7 +300,7 @@ export default function FamiliesPage() {
               <div>
                 <h3
                   style={{
-                    fontFamily: "'Inter', system-ui, sans-serif",
+                    fontFamily: "'Libre Franklin', sans-serif",
                     fontSize: '24px',
                     fontWeight: 700,
                     color: 'var(--ink)',
@@ -388,7 +388,7 @@ export default function FamiliesPage() {
           <div className="md:text-left text-center">
             <h4
               style={{
-                fontFamily: "'Inter', system-ui, sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 fontSize: '22px',
                 fontWeight: 700,
                 color: 'white',
@@ -454,7 +454,7 @@ export default function FamiliesPage() {
       <div style={{ background: 'var(--bg)', padding: '48px 40px', borderTop: '1px solid var(--rule)' }}>
         <h2
           className="text-center mb-8"
-          style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: '28px', fontWeight: 900, color: 'var(--ink)' }}
+          style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '28px', fontWeight: 900, color: 'var(--ink)' }}
         >
           Join Over 15,000+ Happy Families
         </h2>
@@ -702,7 +702,7 @@ export default function FamiliesPage() {
         </div>
         <h2
           style={{
-            fontFamily: "'Inter', system-ui, sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             fontSize: 'clamp(26px, 4vw, 38px)',
             fontWeight: 900,
             color: 'white',

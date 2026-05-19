@@ -26,7 +26,7 @@ export function Sidebar() {
       {/* CTA */}
       <div className="rounded-xl p-5 space-y-3" style={{ background: "var(--brand)" }}>
         <h3
-          className="font-serif text-xl font-bold text-white leading-tight"
+          className=" text-xl font-bold text-white leading-tight"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           Australia&apos;s Family Bike Rack
@@ -34,7 +34,7 @@ export function Sidebar() {
         <p
           className="text-sm leading-relaxed"
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             color: "rgba(255,255,255,0.85)",
           }}
         >
@@ -46,7 +46,7 @@ export function Sidebar() {
           rel="noopener noreferrer"
           className="block text-center text-sm font-semibold py-3 rounded-lg transition-transform hover:scale-[1.02]"
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             background: "white",
             color: "var(--brand)",
           }}
@@ -59,7 +59,7 @@ export function Sidebar() {
           rel="noopener noreferrer"
           className="block text-center text-sm font-semibold py-3 rounded-lg transition-colors hover:bg-white/10"
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             color: "white",
             border: "1.5px solid rgba(255,255,255,0.4)",
           }}
@@ -78,7 +78,7 @@ export function Sidebar() {
       >
         <h4
           className="text-[11px] font-semibold uppercase tracking-widest"
-          style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-muted)" }}
+          style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-muted)" }}
         >
           JB Racks — Specs at a Glance
         </h4>
@@ -88,7 +88,7 @@ export function Sidebar() {
               key={f.label}
               className="flex justify-between items-center py-2 border-b text-sm"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 borderColor: "var(--bg)",
               }}
             >
@@ -111,7 +111,7 @@ export function Sidebar() {
       >
         <h4
           className="text-[11px] font-semibold uppercase tracking-widest mb-3"
-          style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-muted)" }}
+          style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-muted)" }}
         >
           How They Stack Up
         </h4>
@@ -121,7 +121,7 @@ export function Sidebar() {
               key={r.rank}
               className="flex items-center gap-2.5 py-2 border-b text-sm"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 borderColor: "var(--bg)",
                 color: "var(--ink-mid)",
               }}

@@ -22,9 +22,9 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-3 mb-6 mt-10">
       <h2
-        className="font-serif font-bold whitespace-nowrap"
+        className="font-bold whitespace-nowrap"
         style={{
-          fontFamily: "'Playfair Display', serif",
+          fontFamily: "'Libre Franklin', sans-serif",
           fontSize: 'clamp(22px, 3vw, 28px)',
           color: 'var(--ink)',
         }}
@@ -48,7 +48,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
     <>
       <div
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"
-        style={{ background: 'var(--ink)', fontFamily: "'DM Sans', sans-serif" }}
+        style={{ background: 'var(--ink)', fontFamily: "'Libre Franklin', sans-serif" }}
       >
         {copy.bannerText}
       </div>
@@ -68,7 +68,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
         <div className="max-w-5xl mx-auto">
           <div
             className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-widest uppercase mb-5"
-            style={{ fontFamily: "'DM Sans', sans-serif", color: 'var(--brand)' }}
+            style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'var(--brand)' }}
           >
             <span className="block w-6 h-0.5" style={{ background: 'var(--brand)' }} />
             {copy.heroLabel}
@@ -76,7 +76,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           <h1
             className="font-black leading-tight mb-5"
             style={{
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Libre Franklin', sans-serif",
               fontSize: 'clamp(32px, 5vw, 54px)',
               letterSpacing: '-0.02em',
               color: 'var(--ink)',
@@ -102,7 +102,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           />
           <div
             className="flex items-center gap-5 flex-wrap text-[13px] pt-5 border-t"
-            style={{ fontFamily: "'DM Sans', sans-serif", color: 'var(--ink-muted)', borderColor: 'var(--rule)' }}
+            style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'var(--ink-muted)', borderColor: 'var(--rule)' }}
           >
             <span className="font-semibold" style={{ color: 'var(--ink)' }}>JB Racks Editorial</span>
             <span className="w-1 h-1 rounded-full" style={{ background: 'var(--rule)' }} />
@@ -125,7 +125,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           </div>
 
           <blockquote className="my-8 py-4 px-6 rounded-r-lg" style={{ borderLeft: '4px solid var(--brand)', background: 'var(--brand-light)' }}>
-            <p className="text-xl italic leading-relaxed" style={{ fontFamily: "'Playfair Display', serif", color: 'var(--ink)' }}>
+            <p className="text-xl italic leading-relaxed" style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'var(--ink)' }}>
               &ldquo;Traditional platform racks struggle once you move beyond three bikes. Vertical racks solve this — without the bulk.&rdquo;
             </p>
           </blockquote>
@@ -147,7 +147,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
                     <th
                       key={h}
                       className={`px-4 py-3 text-left text-[11px] font-semibold uppercase tracking-wider${mobile ? '' : ' hidden sm:table-cell'}`}
-                      style={{ fontFamily: "'DM Sans', sans-serif", color: h === 'Rack' ? 'white' : 'rgba(255,255,255,0.6)' }}
+                      style={{ fontFamily: "'Libre Franklin', sans-serif", color: h === 'Rack' ? 'white' : 'rgba(255,255,255,0.6)' }}
                     >
                       {h}
                     </th>
@@ -169,7 +169,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
                         key={i}
                         className={`px-4 py-3${mobile ? '' : ' hidden sm:table-cell'}`}
                         style={{
-                          fontFamily: "'DM Sans', sans-serif",
+                          fontFamily: "'Libre Franklin', sans-serif",
                           color: i === 0 ? (row.featured ? 'var(--brand-dark)' : 'var(--ink)') : 'var(--ink-mid)',
                           fontWeight: i === 0 ? 600 : 400,
                         }}
@@ -192,20 +192,20 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           </div>
 
           <div className="rounded-xl p-7 mt-10" style={{ background: 'var(--ink)' }}>
-            <h2 className="font-bold text-white mb-5" style={{ fontFamily: "'Playfair Display', serif", fontSize: '22px' }}>
+            <h2 className="font-bold text-white mb-5" style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '22px' }}>
               What to Look for When Buying a Vertical Bike Rack
             </h2>
             {buyersGuide.map((item, i) => (
               <div key={item.num} className="flex gap-3.5 py-3.5" style={{ borderBottom: i < buyersGuide.length - 1 ? '1px solid rgba(255,255,255,0.1)' : 'none' }}>
                 <div
                   className="w-7 h-7 rounded-full flex items-center justify-center text-[13px] font-semibold text-white flex-shrink-0 mt-0.5"
-                  style={{ background: 'var(--brand)', fontFamily: "'DM Sans', sans-serif" }}
+                  style={{ background: 'var(--brand)', fontFamily: "'Libre Franklin', sans-serif" }}
                 >
                   {item.num}
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-white mb-0.5" style={{ fontFamily: "'DM Sans', sans-serif" }}>{item.title}</h4>
-                  <p className="text-sm leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif", color: 'rgba(255,255,255,0.6)' }}>{item.body}</p>
+                  <h4 className="text-sm font-semibold text-white mb-0.5" style={{ fontFamily: "'Libre Franklin', sans-serif" }}>{item.title}</h4>
+                  <p className="text-sm leading-relaxed" style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'rgba(255,255,255,0.6)' }}>{item.body}</p>
                 </div>
               </div>
             ))}
@@ -219,10 +219,10 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
 
       <footer className="py-16 px-6 text-center" style={{ background: 'var(--ink)' }}>
         <div className="max-w-lg mx-auto">
-          <h2 className="font-black text-white leading-tight mb-4" style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(26px, 4vw, 38px)' }}>
+          <h2 className="font-black text-white leading-tight mb-4" style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: 'clamp(26px, 4vw, 38px)' }}>
             The Rack Built for Australian {persona.who}
           </h2>
-          <p className="text-base mb-8 leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif", color: 'rgba(255,255,255,0.65)' }}>
+          <p className="text-base mb-8 leading-relaxed" style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'rgba(255,255,255,0.65)' }}>
             Sponsored by JB Racks
           </p>
           <a
@@ -230,13 +230,13 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white font-semibold px-8 py-3.5 rounded-lg mb-4"
-            style={{ fontFamily: "'DM Sans', sans-serif", background: 'var(--brand)', fontSize: '15px' }}
+            style={{ fontFamily: "'Libre Franklin', sans-serif", background: 'var(--brand)', fontSize: '15px' }}
           >
             Shop JB Racks Now
           </a>
           <div className="flex justify-center gap-7 mt-7 flex-wrap">
             {['Designed in Australia', 'Free Shipping', 'Secure Checkout'].map((item) => (
-              <div key={item} className="flex items-center gap-1.5 text-[12px] uppercase tracking-wider" style={{ fontFamily: "'DM Sans', sans-serif", color: 'rgba(255,255,255,0.45)' }}>
+              <div key={item} className="flex items-center gap-1.5 text-[12px] uppercase tracking-wider" style={{ fontFamily: "'Libre Franklin', sans-serif", color: 'rgba(255,255,255,0.45)' }}>
                 <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--brand)' }} />
                 {item}
               </div>

@@ -6,7 +6,7 @@ Landing page built with **Next.js 15**, **Tailwind CSS v4**, and **Lucide React*
 - Next.js 15 (App Router)
 - Tailwind CSS v4
 - Lucide React icons
-- Google Fonts: Playfair Display, Source Serif 4, DM Sans
+- Google Fonts: Playfair Display, Source Serif 4, Libre Franklin
 
 ## Getting Started
 ```bash

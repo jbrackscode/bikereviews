@@ -189,7 +189,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
 
         <h1
           style={{
-            fontFamily: "'Inter', system-ui, sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             fontSize: 'clamp(26px, 4vw, 40px)',
             fontWeight: 900,
             lineHeight: 1.15,
@@ -233,7 +233,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
         {/* 7 REASONS */}
         {reasons.map((r) => (
           <div key={r.num} style={{ padding: '48px 0', borderTop: '1px solid var(--rule)' }}>
-            <div style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: '22px', fontWeight: 700, color: 'var(--ink)', marginBottom: '8px' }}>
+            <div style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '22px', fontWeight: 700, color: 'var(--ink)', marginBottom: '8px' }}>
               <span style={{ color: 'var(--brand)', marginRight: '6px' }}>{r.num}.</span>
               {r.summary}
             </div>
@@ -247,7 +247,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
               </div>
 
               <div>
-                <h3 style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: '24px', fontWeight: 700, color: 'var(--ink)', lineHeight: 1.25, marginBottom: '14px' }}>
+                <h3 style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '24px', fontWeight: 700, color: 'var(--ink)', lineHeight: 1.25, marginBottom: '14px' }}>
                   {r.title}
                 </h3>
                 {r.paragraphs.map((p, i) => (
@@ -278,7 +278,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           style={{ background: 'var(--ink)', color: 'white', borderRadius: '12px', padding: '28px 32px', margin: '40px 0' }}
         >
           <div className="md:text-left text-center">
-            <h4 style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: '22px', fontWeight: 700, color: 'white', marginBottom: '6px' }}>
+            <h4 style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '22px', fontWeight: 700, color: 'white', marginBottom: '6px' }}>
               Ready to upgrade your family&apos;s weekends?
             </h4>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.65)', margin: 0 }}>
@@ -304,7 +304,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
 
       {/* SOCIAL PROOF */}
       <div style={{ background: 'var(--bg)', padding: '48px 40px', borderTop: '1px solid var(--rule)' }}>
-        <h2 className="text-center mb-8" style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: '28px', fontWeight: 900, color: 'var(--ink)' }}>
+        <h2 className="text-center mb-8" style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: '28px', fontWeight: 900, color: 'var(--ink)' }}>
           Join Over 15,000+ Happy Families
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -397,7 +397,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
         <div style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '13px', fontWeight: 700, padding: '5px 16px', borderRadius: '20px', marginBottom: '24px', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
           🔴 Limited Mid-Season Offer — Ends Soon
         </div>
-        <h2 style={{ fontFamily: "'Inter', system-ui, sans-serif", fontSize: 'clamp(26px, 4vw, 38px)', fontWeight: 900, color: 'white', lineHeight: 1.2, marginBottom: '12px' }}>
+        <h2 style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: 'clamp(26px, 4vw, 38px)', fontWeight: 900, color: 'white', lineHeight: 1.2, marginBottom: '12px' }}>
           Get Your Family on the Trails Every Weekend
         </h2>
         <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.85)', marginBottom: '10px' }}>

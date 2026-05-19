@@ -64,7 +64,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
       >
         <div className="flex items-baseline justify-between gap-3 flex-wrap mb-0.5">
           <h3
-            className="font-serif text-2xl font-bold"
+            className=" text-2xl font-bold"
             style={{ color: "var(--ink)" }}
           >
             {rack.name}
@@ -72,7 +72,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
           {/* <span
             className="2026"
             style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "'Libre Franklin', sans-serif",
               color: "var(--ink-muted)",
               background: "var(--bg)",
               borderColor: "var(--rule)",
@@ -84,7 +84,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
         <p
           className="text-xs uppercase tracking-wider mb-4"
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Libre Franklin', sans-serif",
             color: "var(--ink-muted)",
           }}
         >
@@ -126,7 +126,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             <span
               className="text-[10px] font-semibold uppercase tracking-wider"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 color: "var(--ink-muted)",
               }}
             >
@@ -135,7 +135,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
             <span
               className="text-sm font-semibold leading-tight"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "'Libre Franklin', sans-serif",
                 color: spec.highlight ? "var(--brand)" : "var(--ink)",
               }}
             >
@@ -152,7 +152,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
           <div className="rounded-md p-3" style={{ background: "var(--green-bg)" }}>
             <p
               className="text-[10px] font-semibold uppercase tracking-wider mb-2"
-              style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--green)" }}
+              style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--green)" }}
             >
               What works
             </p>
@@ -161,7 +161,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
                 <li
                   key={i}
                   className="flex items-start gap-1.5 text-xs leading-snug"
-                  style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-mid)" }}
+                  style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-mid)" }}
                 >
                   <CheckIcon
                     size={11}
@@ -176,7 +176,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
           <div className="rounded-md p-3" style={{ background: "var(--red-bg)" }}>
             <p
               className="text-[10px] font-semibold uppercase tracking-wider mb-2"
-              style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--red)" }}
+              style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--red)" }}
             >
               Consider
             </p>
@@ -185,7 +185,7 @@ export function RackCard({ rack }: { rack: RackSpec }) {
                 <li
                   key={i}
                   className="flex items-start gap-1.5 text-xs leading-snug"
-                  style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--ink-mid)" }}
+                  style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-mid)" }}
                 >
                   <MinusIcon
                     size={11}
@@ -208,13 +208,13 @@ export function RackCard({ rack }: { rack: RackSpec }) {
         >
           <span
             className="text-[10px] font-semibold uppercase tracking-widest whitespace-nowrap"
-            style={{ fontFamily: "'DM Sans', sans-serif", color: "rgba(255,255,255,0.7)" }}
+            style={{ fontFamily: "'Libre Franklin', sans-serif", color: "rgba(255,255,255,0.7)" }}
           >
             Our Verdict
           </span>
           <span
             className="text-sm font-medium text-white leading-snug"
-            style={{ fontFamily: "'DM Sans', sans-serif" }}
+            style={{ fontFamily: "'Libre Franklin', sans-serif" }}
           >
             {rack.verdict}
           </span>
