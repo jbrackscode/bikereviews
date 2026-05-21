@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { personas, getPersona } from '../../personas';
 import { RackCard } from '../../components/RackCard';
 import { Sidebar } from '../../components/Sidebar';
+import { PixelViewContent } from '../../components/PixelViewContent';
 import { racks, tableRows, buyersGuide } from '../../data';
 
 export function generateStaticParams() {
@@ -46,6 +47,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
 
   return (
     <>
+      <PixelViewContent />
 
       <div
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"

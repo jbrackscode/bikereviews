@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { CountdownBar } from '../families/CountdownBar';
+import { PixelViewContent } from '../components/PixelViewContent';
 
 export const metadata: Metadata = {
   title: "7 Reasons Why Vertical Bike Racks Are Every Family's Secret Weapon – JB Racks",
@@ -187,6 +188,7 @@ const fbComments = [
 export default function FamiliesPage() {
   return (
     <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Libre Franklin', system-ui, sans-serif" }}>
+      <PixelViewContent />
       {/* <CountdownBar /> */}
 
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { personas, getPersona } from '../../personas';
 import { CountdownBar } from '../../families/CountdownBar';
+import { PixelViewContent } from '../../components/PixelViewContent';
 
 export function generateStaticParams() {
   return personas.map((p) => ({ persona: p.slug }));
@@ -161,6 +162,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
 
   return (
     <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Libre Franklin', system-ui, sans-serif" }}>
+      <PixelViewContent />
       {/* <CountdownBar /> */}
 
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>

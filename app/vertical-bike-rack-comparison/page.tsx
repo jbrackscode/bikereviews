@@ -1,5 +1,6 @@
 import { RackCard } from "../components/RackCard";
 import { Sidebar } from "../components/Sidebar";
+import { PixelViewContent } from "../components/PixelViewContent";
 import { racks, tableRows, buyersGuide } from "../data";
 
 export const metadata = {
@@ -29,6 +30,7 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
 export default function Home() {
   return (
     <>
+      <PixelViewContent />
 
       <div
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"
