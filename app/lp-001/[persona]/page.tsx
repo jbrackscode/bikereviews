@@ -46,6 +46,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
 
   return (
     <>
+
       <div
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"
         style={{ background: 'var(--ink)', fontFamily: "'Libre Franklin', sans-serif" }}
