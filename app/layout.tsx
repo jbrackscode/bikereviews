@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
 };
 
-const GTM_ID = 'GTM-XXXXXXX'; // TODO: replace with your GTM container ID
+const GTM_ID = 'GTM-N9RWPZMX'; // TODO: replace with your GTM container ID
 const META_PIXEL_ID = '1653698348403397';
 
 export default function RootLayout({
