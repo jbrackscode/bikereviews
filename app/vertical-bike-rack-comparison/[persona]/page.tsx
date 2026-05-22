@@ -43,7 +43,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
   if (!persona) notFound();
 
   const { lp001: copy, utmCampaign } = persona;
-  const shopUrl = `https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=${utmCampaign}&utm_content=footer`;
+  const shopUrl = `https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-vbrcompare&utm_content=footer`;
 
   return (
     <>

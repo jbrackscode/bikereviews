@@ -183,7 +183,7 @@ export default function Home() {
             Sponsored by JB Racks
           </p>
           <a
-            href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-001&utm_content=footer"
+            href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-vbrcompare&utm_content=footer"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white font-semibold px-8 py-3.5 rounded-lg mb-4"

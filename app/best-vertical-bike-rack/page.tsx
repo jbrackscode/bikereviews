@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "We discovered why families across Australia are switching from platform racks — and why once you go vertical, you'll never go back.",
 };
 
-const shopUrl = 'https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-002&utm_content=cta';
+const shopUrl = 'https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-bestvbr&utm_content=cta';
 
 const reasons = [
   {

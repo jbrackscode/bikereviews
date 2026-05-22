@@ -158,7 +158,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
   if (!persona) notFound();
 
   const { lp002: copy, utmCampaign } = persona;
-  const shopUrl = `https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=${utmCampaign}&utm_content=cta`;
+  const shopUrl = `https://jbracks.com.au/collections/vertical-bike-racks?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-bestvbr&utm_content=cta`;
 
   return (
     <div className="max-w-[1140px] mx-auto" style={{ fontFamily: "'Libre Franklin', system-ui, sans-serif" }}>
