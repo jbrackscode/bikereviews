@@ -5,9 +5,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Vertical Bike Racks in Australia – JB Racks",
   description: "We compared six of the most popular vertical bike racks available in Australia — including price, weight, capacity, warranty and usability.",
-  icons: {
-    icon: '/favicon.png',
-  },
 };
 
 const GTM_ID = 'GTM-N9RWPZMX'; // TODO: replace with your GTM container ID
