@@ -109,12 +109,12 @@ const reasons = [
   {
     num: 7,
     flip: false,
-    summary: "Family sizes for every family — 4, 5, or 6 bikes from $899",
+    summary: "Family sizes for every family — 4, 5, or 6 bikes from $950",
     img: "https://jbracks.com.au/cdn/shop/files/4-bike-rack-velo-new-photo-3.webp?v=1773012669&width=900",
     imgAlt: "JB Racks family of bikes loaded on rack at trailhead",
     title: "One rack for the whole crew — kids' bikes included",
     paragraphs: [
-      "JB Racks comes in 4, 5, and 6-bike configurations — all starting at $899. With optional 16–20 inch wheel brackets, even the smallest family member's bike fits perfectly.",
+      "JB Racks comes in 4, 5, and 6-bike configurations — all starting at $950. With optional 16–20 inch wheel brackets, even the smallest family member's bike fits perfectly.",
       "The rack, strut, and shed stand bundle currently saves $300 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
@@ -284,10 +284,10 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
               Ready to upgrade your family&apos;s weekends?
             </h4>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.65)', margin: 0 }}>
-              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited Mid-Season offer.
+              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited EOFY offer.
             </p>
             <span style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}>
-              From $899 — Bundles from $1,199
+              From $950 — Bundles from $1,199
             </span>
             <div className="flex flex-wrap gap-5 mt-3.5">
               {['4-year warranty', 'Free shipping*', '15,247+ customers', 'Secure checkout'].map((item) => (
@@ -397,13 +397,13 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
       {/* FINAL CTA */}
       <div style={{ background: 'var(--brand)', padding: '52px 40px', textAlign: 'center' }}>
         <div style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '13px', fontWeight: 700, padding: '5px 16px', borderRadius: '20px', marginBottom: '24px', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-          🔴 Limited Mid-Season Offer — Ends Soon
+          🔴 Limited EOFY Offer — Ends Soon
         </div>
         <h2 style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: 'clamp(26px, 4vw, 38px)', fontWeight: 900, color: 'white', lineHeight: 1.2, marginBottom: '12px' }}>
           Get Your Family on the Trails Every Weekend
         </h2>
         <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.85)', marginBottom: '10px' }}>
-          4, 5 &amp; 6-bike racks from $899. Bundles from $1,199 — save $300.
+          4, 5 &amp; 6-bike racks from $950. Bundles from $1,199 — save $300.
         </p>
         <br />
         <a href={shopUrl} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '17px', fontWeight: 700, padding: '16px 40px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.02em', marginBottom: '16px' }}>

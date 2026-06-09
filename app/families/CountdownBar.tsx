@@ -40,7 +40,7 @@ export function CountdownBar() {
       }}
     >
       <span style={{ textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-        🚴 Mid-Season Sale — Ends Soon
+        🚴 EOFY Sale — Ends Soon
       </span>
       <div className="flex items-center gap-1.5">
         <span
