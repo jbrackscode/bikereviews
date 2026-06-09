@@ -51,7 +51,7 @@ const reasons = [
       "Gas-assisted struts slow the fold-down to a controlled, smooth motion. The rack eases down, not crashes down. It's the kind of detail that shows they've actually used their product with a family.",
       "The Slow-Fold Strut is included in all JB Racks bundles — no extra cost when you buy the rack, strut, and shed stand together.",
     ],
-    stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,199 — save $300" },
+    stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,499 — save $300" },
     pills: ["Gas-assisted", "Controlled fold", "FREE right now"],
   },
   {
@@ -110,7 +110,7 @@ const reasons = [
       "The rack, strut, and shed stand bundle currently saves $300 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
-    stat: { value: "Bundle from $1,199 (save $300)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
+    stat: { value: "Bundle from $1,499 (save $300)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
     pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$300 bundle saving"],
   },
 ];
@@ -403,7 +403,7 @@ export default function FamiliesPage() {
             <span
               style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}
             >
-              From $950 — Bundles from $1,199
+              From $950 — Bundles from $1,499
             </span>
             <div className="flex flex-wrap gap-5 mt-3.5">
               {['4-year warranty', 'Free shipping*', '15,247+ customers', 'Secure checkout'].map((item) => (
@@ -713,7 +713,7 @@ export default function FamiliesPage() {
           Get Your Family on the Trails Every Weekend
         </h2>
         <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.85)', marginBottom: '10px' }}>
-          4, 5 &amp; 6-bike racks from $950. Bundles from $1,199 — save $300.
+          4, 5 &amp; 6-bike racks from $950. Bundles from $1,499 — save $300.
         </p>
         <br />
         <a
