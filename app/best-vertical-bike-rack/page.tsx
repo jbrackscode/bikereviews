@@ -515,6 +515,7 @@ export default function FamiliesPage() {
       </div>
 
       {/* FACEBOOK COMMENTS */}
+      {false && (
       <div style={{ background: 'var(--bg)', padding: '0 40px 48px' }}>
         <div
           style={{
@@ -683,6 +684,7 @@ export default function FamiliesPage() {
           </div>
         </div>
       </div>
+      )}
 
       {/* FINAL CTA */}
       <div style={{ background: 'var(--brand)', padding: '52px 40px', textAlign: 'center' }}>

@@ -337,6 +337,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
       </div>
 
       {/* FACEBOOK COMMENTS */}
+      {false && (
       <div style={{ background: 'var(--bg)', padding: '0 40px 48px' }}>
         <div style={{ background: '#fff', border: '1px solid #dddfe2', borderRadius: '8px', overflow: 'hidden', fontFamily: "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif", boxShadow: '0 1px 3px rgba(0,0,0,0.12)' }}>
           <div className="flex items-center gap-2" style={{ background: '#3b5998', padding: '10px 14px' }}>
@@ -418,6 +419,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           ))}
         </div>
       </div>
+      )}
 
       {/* DEAL STRIP */}
       <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 text-center" style={{ background: 'var(--ink)', padding: '8px 40px', fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
