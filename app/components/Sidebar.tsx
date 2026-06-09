@@ -51,7 +51,7 @@ export function Sidebar() {
             color: "var(--brand)",
           }}
         >
-          Shop JB Racks →
+          Check Today's Deals →
         </a>
         <a
           href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=sidebar&utm_campaign=lp-vbrcompare&utm_content=models"

@@ -235,7 +235,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
             className="inline-block text-white font-semibold px-8 py-3.5 rounded-lg mb-4"
             style={{ fontFamily: "'Libre Franklin', sans-serif", background: 'var(--brand)', fontSize: '15px' }}
           >
-            Shop JB Racks Now
+            Check Today's Deals
           </a>
           <div className="flex justify-center gap-7 mt-7 flex-wrap">
             {['Designed in Australia', 'Free Shipping', 'Secure Checkout'].map((item) => (

@@ -105,7 +105,7 @@ export function CountdownBar() {
           whiteSpace: 'nowrap',
         }}
       >
-        GET 40% OFF →
+        Check Today's Deals →
       </a>
     </div>
   );
