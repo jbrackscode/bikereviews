@@ -64,7 +64,7 @@ export function Sidebar() {
             border: "1.5px solid rgba(255,255,255,0.4)",
           }}
         >
-          View All Models
+          Check Today's Deals
         </a>
       </div>
 
