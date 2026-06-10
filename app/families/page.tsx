@@ -52,7 +52,7 @@ const reasons = [
       "The Slow-Fold Strut is included in all JB Racks bundles — no extra cost when you buy the rack, strut, and shed stand together.",
     ],
     stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,499 — save $300" },
-    pills: ["Gas-assisted", "Controlled fold", "FREE right now"],
+    pills: ["Gas-assisted", "Controlled fold"],
   },
   {
     num: 4,
@@ -766,7 +766,7 @@ export default function FamiliesPage() {
           🔒 <strong style={{ color: 'white' }}>Secure Checkout</strong>
         </span>
         <span>
-          📦 <strong style={{ color: 'white' }}>Free Shipping*</strong> on orders over $150
+          📦 <strong style={{ color: 'white' }}>Free Shipping*</strong>
         </span>
       </div>
     </div>
