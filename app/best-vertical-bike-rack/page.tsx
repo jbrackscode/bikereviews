@@ -111,7 +111,7 @@ const reasons = [
       "The rack, strut, and shed stand bundle currently saves $300 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
-    stat: { value: "Bundle from $1,499 (save $300)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
+    stat: { value: "Bundle from $1,499", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
     pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$300 bundle saving"],
   },
 ];

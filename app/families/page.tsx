@@ -36,7 +36,7 @@ const reasons = [
       "The JB Racks Swing Arm fixes this permanently. Pull the release, and the entire loaded rack pivots 90 degrees, giving you full boot access without touching a single bike.",
       "It's the accessory we didn't know we needed until we had it. Now we can't imagine going back.",
     ],
-    stat: { value: "JB Swing Arm — $499", label: "Full boot access with all bikes loaded. Fits all JB Racks models." },
+    stat: { value: "JB Swing Arm — $700", label: "Full boot access with all bikes loaded. Fits all JB Racks models." },
     pills: ["90° pivot", "One-pull release", "Boot access in seconds"],
   },
   {
@@ -110,7 +110,7 @@ const reasons = [
       "The rack, strut, and shed stand bundle currently saves $300 off individual pricing — you get the rack, the slow-fold strut, and a shed storage stand to keep the rack when it's not on the car.",
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
-    stat: { value: "Bundle from $1,499 (save $300)", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
+    stat: { value: "Bundle from $1,499", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
     pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$300 bundle saving"],
   },
 ];
