@@ -190,7 +190,11 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           <SectionHeading>The Racks, Reviewed</SectionHeading>
           <div className="space-y-6">
             {racks.map((rack) => (
-              <RackCard key={rack.name} rack={rack} />
+              <RackCard
+                key={rack.name}
+                rack={rack}
+                shopUrl={rack.featured ? `https://jbracks.com.au?utm_source=bikereviews&utm_medium=lp&utm_campaign=lp-vbrcompare&utm_content=editors-pick` : undefined}
+              />
             ))}
           </div>
 

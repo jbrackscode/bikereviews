@@ -17,7 +17,7 @@ export interface RackSpec {
   image?: string;
 }
 
-export function RackCard({ rack }: { rack: RackSpec }) {
+export function RackCard({ rack, shopUrl }: { rack: RackSpec; shopUrl?: string }) {
   return (
     <div
       className="rounded-xl overflow-hidden relative"
@@ -218,6 +218,34 @@ export function RackCard({ rack }: { rack: RackSpec }) {
           >
             {rack.verdict}
           </span>
+        </div>
+      )}
+
+      {/* CTA (featured only) */}
+      {rack.featured && shopUrl && (
+        <div className="px-6 py-4" style={{ background: "var(--white)" }}>
+          <a
+            href={shopUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center font-semibold py-3 rounded-lg transition-transform hover:scale-[1.01]"
+            style={{
+              fontFamily: "'Libre Franklin', sans-serif",
+              background: "var(--brand)",
+              color: "white",
+              fontSize: "15px",
+              textDecoration: "none",
+              letterSpacing: "0.02em",
+            }}
+          >
+            Check Today&apos;s Deals →
+          </a>
+          <p
+            className="text-center mt-2 text-[11px]"
+            style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-muted)" }}
+          >
+            Free shipping · 4-year warranty · Secure checkout
+          </p>
         </div>
       )}
     </div>
