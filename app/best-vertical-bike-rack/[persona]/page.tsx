@@ -394,6 +394,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           </div>
         </div>
       </div>
+      )}
 
       {/* FINAL CTA */}
       <div style={{ background: 'var(--brand)', padding: '52px 40px', textAlign: 'center' }}>
@@ -419,7 +420,6 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           ))}
         </div>
       </div>
-      )}
 
       {/* DEAL STRIP */}
       <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 text-center" style={{ background: 'var(--ink)', padding: '8px 40px', fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
