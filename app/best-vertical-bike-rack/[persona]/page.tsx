@@ -44,7 +44,7 @@ const reasons = [
       "The JB Racks Swing Arm fixes this permanently. Pull the release, and the entire loaded rack pivots 90 degrees, giving you full boot access without touching a single bike.",
       "It's the accessory we didn't know we needed until we had it. Now we can't imagine going back.",
     ],
-    stat: { value: "JB Swing Arm — $499", label: "Full boot access with all bikes loaded. Fits all JB Racks models." },
+    stat: { value: "JB Swing Arm — $700", label: "Full boot access with all bikes loaded. Fits all JB Racks models." },
     pills: ["90° pivot", "One-pull release", "Boot access in seconds"],
   },
   {
@@ -59,7 +59,7 @@ const reasons = [
       "Gas-assisted struts slow the fold-down to a controlled, smooth motion. The rack eases down, not crashes down. It's the kind of detail that shows they've actually used their product with a family.",
       "The Slow-Fold Strut is included in all JB Racks bundles — no extra cost when you buy the rack, strut, and shed stand together.",
     ],
-    stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,499 — save $300" },
+    stat: { value: "Included in all bundles", label: "Rack + Slow-Fold Strut + Shed Stand from $1,499" },
     pills: ["Gas-assisted", "Controlled fold"],
   },
   {
@@ -405,7 +405,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           Get Your Family on the Trails Every Weekend
         </h2>
         <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.85)', marginBottom: '10px' }}>
-          4, 5 &amp; 6-bike racks RRP $950. Bundles from $1,499 — save $300.
+          4, 5 &amp; 6-bike racks RRP $950. Bundles from $1,499.
         </p>
         <br />
         <a href={shopUrl} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '17px', fontWeight: 700, padding: '16px 40px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.02em', marginBottom: '16px' }}>
