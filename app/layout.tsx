@@ -40,6 +40,21 @@ export default function RootLayout({
           />
         </noscript>
 
+        <div style={{
+          background: '#f0f4ff',
+          borderBottom: '1px solid #dbe4ff',
+          textAlign: 'center',
+          padding: '6px 16px',
+          fontSize: '11px',
+          fontWeight: 600,
+          letterSpacing: '0.06em',
+          textTransform: 'uppercase',
+          color: '#4a6fa5',
+          fontFamily: "'Libre Franklin', system-ui, sans-serif",
+        }}>
+          Paid Partnership · JB Racks
+        </div>
+
         {children}
 
         {/* Google Tag Manager */}
