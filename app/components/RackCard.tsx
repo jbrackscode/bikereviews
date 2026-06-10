@@ -223,28 +223,29 @@ export function RackCard({ rack, shopUrl }: { rack: RackSpec; shopUrl?: string }
 
       {/* CTA (featured only) */}
       {rack.featured && shopUrl && (
-        <div className="px-6 py-4" style={{ background: "var(--white)" }}>
+        <div className="px-6 pt-5 pb-6" style={{ background: "#fff7ed", borderTop: "1px solid #fed7aa" }}>
           <a
             href={shopUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full text-center font-semibold py-3 rounded-lg transition-transform hover:scale-[1.01]"
+            className="block w-full text-center font-bold py-4 rounded-xl transition-all hover:scale-[1.02] hover:brightness-105 active:scale-[0.99]"
             style={{
               fontFamily: "'Libre Franklin', sans-serif",
-              background: "var(--brand)",
+              background: "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
               color: "white",
-              fontSize: "15px",
+              fontSize: "16px",
               textDecoration: "none",
               letterSpacing: "0.02em",
+              boxShadow: "0 4px 14px rgba(249,115,22,0.45), 0 1px 3px rgba(0,0,0,0.12)",
             }}
           >
             Check Today&apos;s Deals →
           </a>
           <p
-            className="text-center mt-2 text-[11px]"
-            style={{ fontFamily: "'Libre Franklin', sans-serif", color: "var(--ink-muted)" }}
+            className="text-center mt-2.5 text-[11px]"
+            style={{ fontFamily: "'Libre Franklin', sans-serif", color: "#9a6031" }}
           >
-            Free shipping · 4-year warranty · Secure checkout
+            ✓ Free shipping &nbsp;·&nbsp; ✓ 4-year warranty &nbsp;·&nbsp; ✓ Secure checkout
           </p>
         </div>
       )}
