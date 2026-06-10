@@ -768,7 +768,7 @@ export default function FamiliesPage() {
           🔒 <strong style={{ color: 'white' }}>Secure Checkout</strong>
         </span>
         <span>
-          📦 <strong style={{ color: 'white' }}>Free Shipping*</strong> on orders over $150
+          📦 <strong style={{ color: 'white' }}>Free Shipping*</strong>
         </span>
       </div>
     </div>

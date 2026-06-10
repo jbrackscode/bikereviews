@@ -424,7 +424,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
       {/* DEAL STRIP */}
       <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 text-center" style={{ background: 'var(--ink)', padding: '8px 40px', fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
         <span>🔒 <strong style={{ color: 'white' }}>Secure Checkout</strong></span>
-        <span>📦 <strong style={{ color: 'white' }}>Free Shipping*</strong> on orders over $150</span>
+        <span>📦 <strong style={{ color: 'white' }}>Free Shipping*</strong></span>
       </div>
     </div>
   );
