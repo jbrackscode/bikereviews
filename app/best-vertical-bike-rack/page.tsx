@@ -371,6 +371,32 @@ export default function FamiliesPage() {
                     </span>
                   ))}
                 </div>
+                <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid var(--rule)' }}>
+                  <p style={{ fontSize: '12px', color: 'var(--ink-muted)', marginBottom: '10px', fontFamily: "'Libre Franklin', sans-serif" }}>
+                    RRP $950 · Free shipping · 4-year warranty
+                  </p>
+                  <a
+                    href={shopUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      textAlign: 'center',
+                      fontFamily: "'Libre Franklin', sans-serif",
+                      background: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
+                      color: 'white',
+                      fontSize: '15px',
+                      fontWeight: 700,
+                      padding: '14px 24px',
+                      borderRadius: '10px',
+                      textDecoration: 'none',
+                      letterSpacing: '0.02em',
+                      boxShadow: '0 4px 14px rgba(249,115,22,0.4)',
+                    }}
+                  >
+                    Check Today&apos;s Deals →
+                  </a>
+                </div>
               </div>
             </div>
           </div>
