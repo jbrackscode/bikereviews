@@ -53,7 +53,7 @@ export function Sidebar() {
         >
           Check Today's Deals →
         </a>
-        <a
+        {/* <a
           href="https://jbracks.com.au?utm_source=bikereviews&utm_medium=sidebar&utm_campaign=lp-vbrcompare&utm_content=models"
           target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export function Sidebar() {
           }}
         >
           Check Today's Deals
-        </a>
+        </a> */}
       </div>
 
       {/* Specs */}
