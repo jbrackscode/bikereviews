@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const GTM_ID = 'GTM-N9RWPZMX'; // TODO: replace with your GTM container ID
 const META_PIXEL_ID = '1653698348403397';
-const META_PIXEL_ID_2 = '1287624691959943';
+const META_PIXEL_ID_2 = '1869402770422217';
 
 export default function RootLayout({
   children,
