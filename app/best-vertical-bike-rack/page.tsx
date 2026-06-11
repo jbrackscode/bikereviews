@@ -112,7 +112,7 @@ const reasons = [
       "It's everything a family needs for bikes — at the trail and at home.",
     ],
     stat: { value: "Bundle from $1,499", label: "Rack + Slow-Fold Strut + Shed Stand — everything included" },
-    pills: ["4, 5 or 6 bikes", "Kids' bikes fit", "$300 bundle saving"],
+    pills: ["4, 5 or 6 bikes", "Kids' bikes fit"],
   },
 ];
 
@@ -372,9 +372,9 @@ export default function FamiliesPage() {
                   ))}
                 </div>
                 <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid var(--rule)' }}>
-                  <p style={{ fontSize: '12px', color: 'var(--ink-muted)', marginBottom: '10px', fontFamily: "'Libre Franklin', sans-serif" }}>
+                  {/* <p style={{ fontSize: '12px', color: 'var(--ink-muted)', marginBottom: '10px', fontFamily: "'Libre Franklin', sans-serif" }}>
                     RRP $950 · Free shipping · 4-year warranty
-                  </p>
+                  </p> */}
                   <a
                     href={shopUrl}
                     target="_blank"
