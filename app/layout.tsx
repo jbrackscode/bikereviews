@@ -53,7 +53,7 @@ export default function RootLayout({
           color: '#4a6fa5',
           fontFamily: "'Libre Franklin', system-ui, sans-serif",
         }}>
-          Paid Partnership
+          Paid Partnership with JB Racks
         </div>
 
         {children}
