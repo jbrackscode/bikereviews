@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 const GTM_ID = 'GTM-N9RWPZMX'; // TODO: replace with your GTM container ID
 const META_PIXEL_ID = '1653698348403397';
+const META_PIXEL_ID_2 = '123456789';
 
 export default function RootLayout({
   children,
@@ -74,6 +75,7 @@ export default function RootLayout({
           t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
           (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
           fbq('init','${META_PIXEL_ID}');
+          fbq('init','${META_PIXEL_ID_2}');
           fbq('track','PageView');
         `}</Script>
       </body>
