@@ -185,7 +185,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
           </div>
           <div style={{ fontSize: '13px', color: 'var(--ink-muted)' }}>
             <strong style={{ color: 'var(--ink)', display: 'block' }}>By {copy.authorName}</strong>
-            {copy.authorDesc}
+            {copy.authorDesc} · {new Date().getFullYear()}
           </div>
         </div>
 
@@ -310,7 +310,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
               Ready to upgrade your family&apos;s weekends?
             </h4>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.65)', margin: 0 }}>
-              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited EOFY offer.
+              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited time offer.
             </p>
             <span style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}>
               RRP $950 — Bundles from $1,499
@@ -425,7 +425,7 @@ export default async function Lp002PersonaPage({ params }: { params: Promise<{ p
       {/* FINAL CTA */}
       <div style={{ background: 'var(--brand)', padding: '52px 40px', textAlign: 'center' }}>
         <div style={{ display: 'inline-block', background: 'white', color: 'var(--brand-dark)', fontSize: '13px', fontWeight: 700, padding: '5px 16px', borderRadius: '20px', marginBottom: '24px', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-          🔴 Limited EOFY Offer — Ends Soon
+          🔴 Limited Time Offer — Ends Soon
         </div>
         <h2 style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: 'clamp(26px, 4vw, 38px)', fontWeight: 900, color: 'white', lineHeight: 1.2, marginBottom: '12px' }}>
           Get Your Family on the Trails Every Weekend

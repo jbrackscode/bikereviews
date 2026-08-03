@@ -6,14 +6,26 @@ function pad(n: number) {
   return String(n).padStart(2, '0');
 }
 
+const DEADLINE_KEY = 'jbracks-offer-deadline';
+const WINDOW_MS = 3 * 24 * 60 * 60 * 1000;
+
+function getDeadline() {
+  const stored = Number(localStorage.getItem(DEADLINE_KEY));
+  if (stored && stored > Date.now()) return stored;
+
+  const deadline = Date.now() + WINDOW_MS;
+  localStorage.setItem(DEADLINE_KEY, String(deadline));
+  return deadline;
+}
+
 export function CountdownBar() {
   const [time, setTime] = useState({ d: 0, h: 0 });
 
   useEffect(() => {
-    const end = new Date('2026-05-20T23:59:59');
+    const end = getDeadline();
 
     function tick() {
-      const diff = Math.max(0, end.getTime() - Date.now());
+      const diff = Math.max(0, end - Date.now());
       const totalHours = Math.floor(diff / 3600000);
       setTime({
         d: Math.floor(totalHours / 24),
@@ -40,7 +52,7 @@ export function CountdownBar() {
       }}
     >
       <span style={{ textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-        🚴 EOFY Sale — Ends Soon
+        🚴 Sale — Ends Soon
       </span>
       <div className="flex items-center gap-1.5">
         <span

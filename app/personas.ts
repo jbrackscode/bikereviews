@@ -32,7 +32,7 @@ export const personas: Persona[] = [
     utmCampaign: 'families',
 
     lp001: {
-      bannerText: "The Bike Rack Buyer's Guide — Australian Review · 2026",
+      bannerText: "The Bike Rack Buyer's Guide — Australian Review",
       heroLabel: "Buyer's Guide · Vertical Bike Racks · Australia",
       h1Line1: 'Vertical Bike Racks in Australia:',
       h1Emphasis: 'A Practical Guide',
@@ -43,7 +43,7 @@ export const personas: Persona[] = [
 
     lp002: {
       authorName: 'Sarah M., Brisbane Mum of Three',
-      authorDesc: 'Published · Mid-Season Sale, 2025',
+      authorDesc: 'Published',
       h1Main: '7 Reasons Why Vertical Bike Racks Are',
       h1Emphasis: "Every Family's",
       h1Suffix: 'Secret Weapon for Weekend Rides',
@@ -59,7 +59,7 @@ export const personas: Persona[] = [
     utmCampaign: 'mountain-bikers',
 
     lp001: {
-      bannerText: "The MTB Buyer's Guide — Australian Review · 2026",
+      bannerText: "The MTB Buyer's Guide — Australian Review",
       heroLabel: "Buyer's Guide · Vertical Bike Racks · Australia",
       h1Line1: 'Vertical Bike Racks in Australia:',
       h1Emphasis: 'The MTB Hauler',
@@ -69,7 +69,7 @@ export const personas: Persona[] = [
 
     lp002: {
       authorName: 'Jake T., Toowoomba Trail Rider',
-      authorDesc: 'Published · Mid-Season Sale, 2025',
+      authorDesc: 'Published',
       h1Main: '7 Reasons Vertical Bike Racks Are',
       h1Emphasis: "Every MTB Rider's",
       h1Suffix: 'Secret Weapon for Trail Days',

@@ -209,7 +209,7 @@ export default function FamiliesPage() {
           </div>
           <div style={{ fontSize: '13px', color: 'var(--ink-muted)' }}>
             <strong style={{ color: 'var(--ink)', display: 'block' }}>By Sarah M., Brisbane Mum of Three</strong>
-            Published · EOFY Sale, 2026
+            Published · {new Date().getFullYear()}
           </div>
         </div>
 
@@ -398,7 +398,7 @@ export default function FamiliesPage() {
               Ready to upgrade your family&apos;s weekends?
             </h4>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.65)', margin: 0 }}>
-              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited EOFY offer.
+              4, 5 &amp; 6-bike racks. Free Slow-Fold Strut included. Limited time offer.
             </p>
             <span
               style={{ fontSize: '28px', fontWeight: 700, color: 'var(--brand)', marginTop: '6px', display: 'block' }}
@@ -700,7 +700,7 @@ export default function FamiliesPage() {
             textTransform: 'uppercase',
           }}
         >
-          🔴 Limited EOFY Offer — Ends Soon
+          🔴 Limited Time Offer — Ends Soon
         </div>
         <h2
           style={{

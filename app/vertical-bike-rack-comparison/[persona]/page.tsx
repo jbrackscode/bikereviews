@@ -53,7 +53,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
         className="text-center py-2.5 px-5 text-[13px] font-semibold tracking-widest uppercase text-white"
         style={{ background: 'var(--ink)', fontFamily: "'Libre Franklin', sans-serif" }}
       >
-        {copy.bannerText}
+        {copy.bannerText} · {new Date().getFullYear()}
       </div>
 
       <header className="border-b py-4 text-center" style={{ background: 'var(--white)', borderColor: 'var(--rule)' }}>
@@ -109,7 +109,7 @@ export default async function Lp001PersonaPage({ params }: { params: Promise<{ p
           >
             <span className="font-semibold" style={{ color: 'var(--ink)' }}>JB Racks Editorial</span>
             <span className="w-1 h-1 rounded-full" style={{ background: 'var(--rule)' }} />
-            <span>Review · 2026</span>
+            <span>Review · {new Date().getFullYear()}</span>
             <span className="w-1 h-1 rounded-full" style={{ background: 'var(--rule)' }} />
             <span>6 racks compared</span>
           </div>
